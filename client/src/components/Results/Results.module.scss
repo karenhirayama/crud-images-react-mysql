@@ -1,0 +1,42 @@
+.imageDiv {
+    background-color: white;
+    margin: 16px;
+    padding: 8px;
+    border-radius: 4px;
+    box-shadow: 2px 2px 8px #686466;
+}
+
+.changesInput {
+    input {
+        border: 2px solid #ec9ec0;
+        width: 300px;
+        margin-right: 16px;
+        padding: 8px;
+        border-radius: 5px;
+    }
+
+    button {
+        width: fit-content;
+        border: 1px solid #ff0080;
+        border-radius: 5px;
+        background-color: #ff0080;
+        color: white;
+        font-weight: bold;
+        margin: 8px;
+    }
+
+    button:hover {
+        background-color: #a91b60;
+    }
+}
+
+.deleteBtn {
+    border: 1px solid #ec9ec0;
+    border-radius: 5px;
+    background-color: #ec9ec0;
+    color: white;
+    font-weight: bold;
+}
+.deleteBtn:hover {
+    background-color: #a91b60;
+}
